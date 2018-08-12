@@ -1,0 +1,115 @@
+body {
+    font-family: 'Times New Roman';
+    font-size: 18px;
+}
+
+#main {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header {
+    width: 1000px;
+    background: #079e28;
+    height: 180px;
+    margin-bottom: 5px;
+    border: 1px #b1e7f5 solid;
+    position: fixed;
+    top: 0;
+    border-radius: 5px;
+}
+/*phan con header*/
+#logo {
+    background-image: url("../images/4.png");
+    background-size: 200px 100px;
+    height: 100px;
+    width: 200px;
+    margin-left: 5px;
+    margin-top: 40px;
+    border-radius: 7px; 
+    float: left;
+   
+}
+#name {
+    height: 100px;
+    width: 400px;
+    margin-left: 109px;
+    margin-top: 40px;
+    border-radius: 7px; 
+    float: left;
+}
+#name h2 {
+    font-family: 'Lucida Grande';
+    font-size: 30px;
+    text-align: center;
+}
+/*end phan con header*/
+
+#head-link {
+    background: #ddedf1e5;
+    height: 80px;
+    clear: both;
+    border: 1px #b1e7f5 solid;
+    margin-bottom: 5px;
+    margin-top: 185px;
+    border-radius: 5px;
+}
+/*start phan con head-link*/
+#head-link ul {
+    width: 900px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    line-height: 80px;
+    text-align: center;
+    list-style-type: none; 
+}
+#head-link ul li {
+    display: inline-block;  
+    width: 190px;
+    height: 80px;
+    margin-right: 5px;
+}
+#head-link a {
+    color: #6b65c4;
+    display: block;
+    text-decoration: none;
+    width: 190px;
+    height: 80px;
+    margin-right: 5px;
+    margin-top: 0px;
+}
+#head-link a:hover {
+    background: #f09d31;
+    color: black;
+    border-top-left-radius: 8px;
+}
+/*end phan con head-link*/
+#left {
+    background: #ddedf1e5;
+    height: 600px;
+    width: 300px;
+    border: 1px #b1e7f5 solid;
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+#content {
+    background: #ddedf1e5;
+    height: 600px;
+    width: 690px;;
+    border: 1px #b1e7f5 solid;
+    float: left;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+#footer {
+    background: #ddedf1e5;
+    height: 80px;
+    margin-bottom: 5px;
+    border: 1px #b1e7f5 solid;
+    clear: both;
+    border-radius: 5px;
+}

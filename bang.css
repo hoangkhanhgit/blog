@@ -1,0 +1,9 @@
+.list-item{
+    display: flex;
+}
+    .list-item__image{
+        flex-shrink: 0;
+    }
+    .list .list-item__content{
+        flex-grow: 1;
+    }

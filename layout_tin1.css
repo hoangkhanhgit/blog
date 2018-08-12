@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Tahoma;
+    font-size: 12px;
+}
+#main {
+    width: 1500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#header {
+    background: yellowgreen;
+    height: 120px;
+    margin-bottom: 5px;
+}
+#logo {
+    background: burlywood;
+    width: 400px;
+    height: 120px;
+    margin-right: 5px;
+    float: left;
+}
+#banner {
+    background: burlywood;
+    width: 1095px;
+    height: 120px;
+    float: left;
+}
+#head-link {
+    height: 40px;
+    margin-bottom: 5px;
+    clear: both;
+}
+#menutop { 
+    background: rgba(18, 114, 121, 0.486);
+    width: 1095px;
+    height: 40px;
+    float: left;
+}
+#menutop ul{
+    list-style-type: none;
+    margin: 0;
+}
+#menutop ul li {
+    display: inline-block;
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 10px;
+    border-top-left-radius: 10px;
+    background: rgb(112, 139, 139);
+}
+#menutop a {
+    text-decoration: none;
+    color: rgb(13, 19, 24);
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    display: block;
+    border-top-left-radius: 10px;
+}
+#menutop a:hover {
+    background: rgb(112, 237, 241);
+    color: aliceblue;
+}
+#search {
+    background: #fff;
+    width: 400px;
+    height: 40px;
+    margin-left: 5px;
+    float: left;
+}
+#left {
+    background: burlywood;
+    min-height: 500px;
+    width: 300px;
+    margin-bottom: 5px;
+    float: left;
+}
+#content {
+    background: blueviolet;
+    height: 500px;
+    width: 900px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    float: left;
+}
+#right {
+    background: rgb(57, 92, 89);
+    height: 500px;
+    width: 290px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    float: left;
+}
+#footer {
+    background: rgb(155, 163, 36);
+    height: 100px;
+    margin-bottom: 5px;
+    clear: both;
+}

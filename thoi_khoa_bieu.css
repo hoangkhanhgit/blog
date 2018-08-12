@@ -1,0 +1,35 @@
+body {
+    width: 100%;
+    background: #fff;
+}
+h2 {
+    text-align: center;
+    color: blue;
+}
+.class {
+    width: 200px;
+    float: left;
+    margin-left: 100px;
+}
+.class ul li {
+    list-style-type: none;
+    color: rgb(45, 139, 139);
+    
+}
+.time {
+    width: 300px;
+    float: right;
+    margin-right: 100px;
+}
+.time ul li {
+    list-style-type: none;
+    color: rgb(45, 139, 139);
+}
+.table {
+    margin-top: 300px;
+    border: 2px #000000 solid;
+    width: 800px;
+}
+th td {
+    border: 2px #000000 solid;
+}
